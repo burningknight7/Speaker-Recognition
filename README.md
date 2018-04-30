@@ -1,5 +1,5 @@
 # Speaker-Recognition
-(*HIS IS JUST A BASIC LEVEL PROTOTYPE*)
+(*THIS IS JUST A BASIC LEVEL PROTOTYPE*)
 
 A simple Speaker Recognition application in python using Mel-Frequency Cepstrum Coefficients and Gaussian Mixture Model. The mel-frequency cepstrum coefficients of each sample is extracted and fitted into a Gaussian Mixture Model. We have taken 4 samples of 9 people of length 2 seconds each. The samples are taken in normal surroundings, hence some noise is accompanied in all samples. The first three samples are used for training and the fourth one is then tested. Gmm models of these 9 people are already created and are present in the /gmm_models directory. You can find their corresponding samples in /samples directory.
  The accuracy of our implementation is very high (95%-96%) as tested upon the given samples. The accuracy still depends on the quality of the samples provided and amount of training set.
